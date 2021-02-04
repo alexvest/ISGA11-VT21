@@ -1,0 +1,30 @@
+table{
+  border: 2px solid black;
+  border-spacing: 10px;
+}
+
+thead>tr:first-child{
+  background-color: red;
+}
+
+tbody>tr:nth-child(odd){
+  background-color: green;
+}
+
+tbody>tr:nth-child(even){
+  background-color: blue;
+}
+
+tfoot>tr>td:last-child{
+  background-color: yellow;
+}
+tfoot>tr>td:first-child{
+  background-color: brown;
+}
+
+tfoot>tr>td:nth-child(2){
+  background-color: salmon;
+}
+tfoot>tr>td:nth-child(3){
+  background-color: pink;
+}
