@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+}
+
+#page-div {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: red;
+  padding: 12px;
+}
+
+main {
+  background-color: salmon;
+  padding: 12px;
+  float: left;
+  width: 66.666667%;
+}
+
+aside {
+  background-color: gold;
+  padding: 12px;
+  float: right;
+  width: 33.333333%;
+  
+}
+
+footer {
+  background-color: lightgoldenrodyellow;
+  padding: 12px;
+  clear: both;
+}
+
+/* Gäller enbart om skärmen är mindre än 800px i bredd */
+@media (max-width: 799px) {
+  main {
+    float: none;
+    width: auto;
+  }
+  
+  aside {
+    float: none;
+    width: auto;
+  }
+
+  header{
+    display: none;
+  }
+}

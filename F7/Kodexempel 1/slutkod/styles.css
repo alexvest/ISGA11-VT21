@@ -1,0 +1,32 @@
+/*.image{
+	width: 50%;
+}
+
+.image{
+	width: 400px;
+	max-width: 100%;
+	height: auto;
+}*/
+
+main{
+	display:block;
+}
+@media screen and (min-width: 900px){
+	.image{
+		width: 24%;
+
+	}
+}
+
+
+@media screen and (max-width: 900px){
+	.image{
+		width: 49%;
+
+	}
+}
+@media screen and (max-width: 599px){
+	.image{
+		width: 100%;
+	}
+}
